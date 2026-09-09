@@ -1,1 +1,261 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A bold, editorial experience built around places, movement and memorable days."><title>Nomads Path</title><style>@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700&family=Space+Mono&family=Cormorant+Garamond:wght@500;600;700&display=swap');:root{--bg:#f1e8dc;--fg:#231c18;--a:#b44b35;--font1:Bodoni 72,Didot,serif;--font2:Helvetica Neue,Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font2);line-height:1.55}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}.nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;gap:20px}.brand{font-family:var(--font1);font-size:24px}.navlinks{display:flex;gap:22px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}.btn{display:inline-block;padding:13px 18px;background:var(--a);color:var(--bg);font-weight:700;border-radius:999px}.hero{min-height:82vh;display:grid;align-items:end;padding:70px 0 55px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;inset:12% -15% -30%;background:radial-gradient(circle at 65% 45%,var(--a),transparent 42%);opacity:.25;filter:blur(20px);pointer-events:none}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.18em;opacity:.65}h1{font-family:var(--font1);font-size:clamp(64px,11vw,150px);line-height:.84;letter-spacing:-.055em;max-width:1050px;margin:18px 0;position:relative;z-index:1}.lead{font-size:clamp(18px,2vw,25px);max-width:650px;position:relative;z-index:1}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px;position:relative;z-index:1}section{padding:100px 0;border-top:1px solid color-mix(in srgb,var(--fg) 16%,transparent)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border:1px solid color-mix(in srgb,var(--fg) 18%,transparent);min-height:190px;border-radius:22px}.card b{font-family:var(--font1);font-size:27px}.bigquote{font-family:var(--font1);font-size:clamp(38px,6vw,82px);line-height:.98;max-width:980px}.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.num{font-family:var(--font1);font-size:70px;color:var(--a)}footer{padding:55px 0 80px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}@media(max-width:760px){.navlinks{display:none}.grid,.split{grid-template-columns:1fr}h1{font-size:62px}section{padding:70px 0}} </style></head><body><header class="wrap nav"><div class="brand">Nomads Path</div><a class="btn" href="#book">Plan the route</a></header><main><section class="wrap" style="padding:30px 28px 120px"><div class="eyebrow">Explore · Nomads Path</div><div style="display:grid;grid-template-columns:1.4fr .6fr;gap:35px;align-items:end;margin-top:90px"><h1 style="font-size:clamp(74px,12vw,155px)">Stay<br>hungry.</h1><p class="lead">A bold, editorial experience built around places, movement and memorable days.</p></div></section><section><div class="wrap"><div class="grid"><div class="card"><div class="eyebrow">01</div><h2 style="font-family:var(--font1)">Identity</h2><p>A recognisable visual language that belongs to this business alone.</p></div><div class="card"><div class="eyebrow">02</div><h2 style="font-family:var(--font1)">Content</h2><p>Room for verified facts, images, menus, rooms, routes or products.</p></div><div class="card"><div class="eyebrow">03</div><h2 style="font-family:var(--font1)">Conversion</h2><p>A direct route from interest to a real-world visit.</p></div></div></div></section><section id="book"><div class="wrap" style="background:var(--fg);color:var(--bg);padding:55px;border-radius:28px"><div class="eyebrow">Ready when you are</div><h2 style="font-family:var(--font1);font-size:clamp(50px,7vw,90px);line-height:.95">Turn the concept<br>into the destination.</h2><a class="btn" href="mailto:?subject=Website%20enquiry%20for%20Nomads Path">Get in touch</a></div></section></main><script>document.querySelectorAll("a[href^=\"#\"]").forEach(a=>a.addEventListener("click",()=>document.body.dataset.nav="used"));</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nomads Path</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A bold, editorial experience built around places, movement and memorable days.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --color-bg:#faf4ed;
+  --color-fg:#2b1f1a;
+  --color-primary:#c04e3a;
+  --color-accent:#e6a96b;
+  --font-heading:"Playfair Display",serif;
+  --font-body:"Inter",sans-serif;
+  --radius:12px;
+}
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  margin:0;
+  font-family:var(--font-body);
+  line-height:1.6;
+  background:var(--color-bg);
+  color:var(--color-fg);
+}
+a{
+  color:inherit;
+  text-decoration:none;
+}
+a:focus-visible,
+button:focus-visible{
+  outline:2px solid var(--color-primary);
+  outline-offset:2px;
+}
+button{
+  font:inherit;
+  cursor:pointer;
+}
+img,svg{
+  display:block;
+  max-width:100%;
+}
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+  padding:1rem;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 0;
+}
+.brand{
+  font-family:var(--font-heading);
+  font-size:1.5rem;
+  font-weight:600;
+}
+.cta-primary{
+  background:var(--color-primary);
+  color:var(--color-bg);
+  border:none;
+  padding:.75rem 1.5rem;
+  border-radius:999px;
+  font-weight:600;
+  transition:background .3s;
+}
+.cta-primary:hover,
+.cta-primary:focus-visible{
+  background:var(--color-accent);
+}
+.hero{
+  position:relative;
+  min-height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:4rem 0 2rem;
+  overflow:hidden;
+  background:linear-gradient(135deg, var(--color-accent) 0%, var(--color-primary) 100%);
+  color:#fff;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at 70% 30%, rgba(255,255,255,.15), transparent 60%);
+  mix-blend-mode:screen;
+}
+.hero .compass{
+  position:absolute;
+  top:20%;
+  left:10%;
+  width:120px;
+  height:120px;
+  opacity:.2;
+  transform:rotate(15deg);
+}
+.hero-content{
+  position:relative;
+  z-index:1;
+}
+.eyebrow{
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-size:.75rem;
+  opacity:.8;
+}
+h1{
+  font-family:var(--font-heading);
+  font-size:clamp(3rem,10vw,8rem);
+  line-height:1;
+  margin:.5rem 0;
+}
+.lead{
+  font-size:1.125rem;
+  max-width:45ch;
+}
+.actions{
+  margin-top:2rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.75rem;
+}
+section{
+  padding:4rem 0;
+}
+.section-title{
+  font-family:var(--font-heading);
+  font-size:clamp(2rem,5vw,3rem);
+  margin-bottom:1.5rem;
+}
+.grid{
+  display:grid;
+  gap:1.5rem;
+}
+.card{
+  background:#fff;
+  border:1px solid rgba(0,0,0,.08);
+  border-radius:var(--radius);
+  padding:1.5rem;
+  transition:transform .3s, box-shadow .3s;
+}
+.card:hover,
+.card:focus-within{
+  transform:translateY(-4px);
+  box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+.card h2{
+  font-family:var(--font-heading);
+  font-size:1.5rem;
+  margin:.75rem 0;
+}
+.cta-section{
+  background:var(--color-fg);
+  color:var(--color-bg);
+  border-radius:var(--radius);
+  padding:3rem 2rem;
+  text-align:center;
+}
+.cta-section .eyebrow{
+  color:var(--color-accent);
+}
+footer{
+  background:var(--color-fg);
+  color:var(--color-bg);
+  padding:2rem 0;
+}
+footer .footer-nav a{
+  margin-right:.75rem;
+  font-size:.875rem;
+}
+@media (min-width:600px){
+  .grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+@media (min-width:900px){
+  .grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation:none!important;
+    transition:none!important;
+  }
+}
+</style>
+</head>
+<body>
+<header class="container" role="banner">
+  <a href="#" class="brand">Nomads Path</a>
+  <a href="#contact" class="cta-primary">Plan the route</a>
+</header>
+
+<main>
+  <section class="hero" aria-label="Hero">
+    <svg class="compass" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" fill="none"/>
+      <polygon points="32,12 36,32 32,52 28,32" fill="currentColor"/>
+    </svg>
+    <div class="container hero-content">
+      <p class="eyebrow">Explore · Nomads Path</p>
+      <h1>Stay<br>hungry.</h1>
+      <p class="lead">A bold, editorial experience built around places, movement and memorable days.</p>
+      <div class="actions">
+        <a href="#about" class="cta-primary">Learn more</a>
+        <a href="#contact" class="cta-primary">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container" aria-labelledby="about-title">
+    <h2 id="about-title" class="section-title">What we craft</h2>
+    <div class="grid">
+      <article class="card" tabindex="0">
+        <p class="eyebrow">01</p>
+        <h2>Identity</h2>
+        <p>A recognisable visual language that belongs to this business alone.</p>
+      </article>
+      <article class="card" tabindex="0">
+        <p class="eyebrow">02</p>
+        <h2>Content</h2>
+        <p>Room for verified facts, routes, experiences and stories.</p>
+      </article>
+      <article class="card" tabindex="0">
+        <p class="eyebrow">03</p>
+        <h2>Conversion</h2>
+        <p>A direct route from interest to a real‑world adventure.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="cta-section container" aria-label="Contact">
+    <p class="eyebrow">Ready when you are</p>
+    <h2 class="section-title">Turn the concept<br>into the destination.</h2>
+    <a href="mailto:?subject=Website enquiry for Nomads Path" class="cta-primary">Get in touch</a>
+  </section>
+</main>
+
+<footer class="container" role="contentinfo">
+  <p>&copy; <script>document.write(new Date().getFullYear())</script> Nomads Path</p>
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#">Top</a>
+  </nav>
+</footer>
+
+</body>
+</html>
